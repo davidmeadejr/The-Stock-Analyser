@@ -2,11 +2,13 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
-import { MainPageComponent } from './Components/Main-Page/main-page.component';
+import { MainPageComponent } from './components/main-page/main-page.component';
+import { PageModalComponent } from './components/page-modal/page-modal.component';
 
 @NgModule({
   declarations: [
-    MainPageComponent
+    MainPageComponent,
+    PageModalComponent
   ],
   imports: [
     BrowserModule,
