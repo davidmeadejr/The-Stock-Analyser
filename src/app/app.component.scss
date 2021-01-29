@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0 0 0;
+    margin: 2rem 0 0 0;
 
     .search-bar {
         font-family: 'Helvetica Neue Medium';
@@ -39,7 +39,10 @@
         background-repeat: no-repeat;
     }
 
-    .search-button {
-        margin: 0 0 0 1rem;
+    .search-icon {
+        margin: 0 0 0 0;
+        width: 20px;
+        height: 20px;
+
     }
 }
