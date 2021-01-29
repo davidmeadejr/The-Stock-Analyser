@@ -9,4 +9,13 @@ export class MainPageComponent {
   title = 'The Stock Analyser';
   companySearch = 'enter the company you would like analysed...';
   searchButton = 'search';
+
+
+
+  searchCompany(): any {
+    const companyYahooUrl = document.querySelector('.search-bar');
+
+    return companyYahooUrl;
+    }
 }
+
