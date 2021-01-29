@@ -1,7 +1,45 @@
+#header {
+    margin: 2rem 0 0 0;
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+
+        width: 100px;
+        height: 100px;
+    }
+}
+
 #title{
     font-family: 'Helvetica Neue Medium';
+    // margin: 10% 0 0 0;
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.search-functionality {
     display: flex;
     justify-content: center;
-    margin: 10% 0 0 0;
-    font-size: 3.5rem;
+    align-items: center;
+    margin: 4rem 0 0 0;
+
+    .search-bar {
+        font-family: 'Helvetica Neue Medium';
+        display: flex;
+        width: 500px;
+        height: 50px;
+        border: none;
+        outline-color: white;
+        background-image: linear-gradient(#000, #000);
+        background-position: bottom 5px center;
+        background-size: calc(100%) 1px;
+        background-repeat: no-repeat;
+    }
+
+    .search-button {
+        margin: 0 0 0 1rem;
+    }
 }

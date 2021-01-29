@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'The Stock Analyser';
+  companySearch = 'enter the company you would like analysed...';
+  searchButton = 'search';
 }
