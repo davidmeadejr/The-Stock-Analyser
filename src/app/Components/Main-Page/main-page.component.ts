@@ -2,10 +2,10 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  templateUrl: './main-page.component.html',
+  styleUrls: ['./main-page.component.scss']
 })
-export class AppComponent {
+export class MainPageComponent {
   title = 'The Stock Analyser';
   companySearch = 'enter the company you would like analysed...';
   searchButton = 'search';
