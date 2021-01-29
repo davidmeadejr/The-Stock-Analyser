@@ -10,6 +10,12 @@ export class MainPageComponent {
   companySearch = 'enter the company you would like analysed...';
   searchButton = 'search';
 
+  showMe = true;
+
+  toggleModal(): any {
+    this.showMe = !this.showMe;
+  }
+
 
 
   searchCompany(): any {
