@@ -1,16 +1,20 @@
 <header id="header">
+  <img class="home-button" src="/assets/images/home-solid.svg" alt="home-solid" *ngIf="!showMe" (click)="toggleModal()">
   <div class="container">
-    <img src="/assets/images/Thinking-Man.png" alt="Thinking-Man">
+    <img src="/assets/images/Thinking-Man.png" alt="Thinking-Man" (click)="toggleModal()">
     <h1 id="title">{{title}}</h1>
   </div>
 </header>
 
 <main>
-  <div class="search-functionality">
+  <div class="search-functionality" *ngIf="showMe">
     <input class="search-bar" type="text" placeholder={{companySearch}} />
-    <input class="search-icon" type="image" src="/assets/images/search-solid.svg" />
+    <input class="search-icon" type="image" src="/assets/images/search-solid.svg" (click)="searchCompany()"/>
   </div>
-  <div class=page-modal>
+  <div class=page-modal *ngIf="showMe">
     <app-page-modal></app-page-modal>
+  </div>
+  <div *ngIf="!showMe">
+    <app-analysis-page></app-analysis-page>
   </div>
 </main>
