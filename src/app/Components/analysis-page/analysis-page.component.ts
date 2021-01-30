@@ -7,6 +7,12 @@ import { Component, Input, OnInit} from '@angular/core';
 })
 
 export class AnalysisPageComponent implements OnInit {
+  modalTitleOne = 'Financial Condition';
+  modalTitleTwo = 'Earnings Stability';
+  modalTitleThree = 'Dividend Record';
+  modalTitleFour = 'Earnings Growth';
+  modalTitleFive = 'Company Price';
+  modalTitleSix = 'Summary';
 
   constructor() { }
 
